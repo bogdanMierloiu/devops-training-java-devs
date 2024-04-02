@@ -1,5 +1,6 @@
 # ls -> list items without arguments
 ## "Arguments are case-sensitive, like... everything in Linux :)"
+ls -al -> `easiest way` to list all items with details
 ls -alSr
 ls -l
 ls -lh
