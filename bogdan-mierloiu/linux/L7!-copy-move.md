@@ -22,3 +22,5 @@ but there is something in between, like a, g or6, but it has to be only one char
 `mv file_name ../target_directory` -> move the file to the target directory
 `mv directory_name ../target_directory` -> move the directory to the target directory
 `mv anotherdir newdir` -> rename the directory `anotherdir` to `newdir`
+
+`diff file1 file2` -> compare two files and show the differences
