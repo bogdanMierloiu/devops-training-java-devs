@@ -7,7 +7,7 @@ mkdir parentdir/childir{01..100} -> create 100 directories with the same name an
 `pwd` -> print the current working directory
 cd directory_name -> change the current working directory to "directory_name"
 
-![structure.png](img.png)
+![structure.png](structure.png)
 
 cd ~  = cd $HOME = cd /root
 

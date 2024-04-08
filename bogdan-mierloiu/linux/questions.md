@@ -1,4 +1,4 @@
-1. How to download `Oracle Virtual Box` on my laptop with VPN restrictions? 
+1. How to download `Oracle Virtual Box` on my laptop with VPN restrictions?  -> solved
 2. Is the `CTRL+Z` command, a valid way to exit from `vim`?
   `CTRL+Z` -> does not exit Vim. It suspends Vim and returns you to the shell. This means Vim is running in the background.
   You can use the `fg` command to return to Vim.
