@@ -3,3 +3,7 @@
 /.idea/workspace.xml
 # Default ignored directories
 /.idea/
+bogdan-mierloiu/spring-container/target
+bogdan-mierloiu/spring-container/.mvn
+bogdan-mierloiu/spring-container/mvnw
+bogdan-mierloiu/spring-container/mvnw.cmd

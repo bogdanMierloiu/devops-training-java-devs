@@ -13,7 +13,5 @@ ADD https://example.com/data/data_file.txt /app
 ADD local_file.txt /app
 
 
-
-
 # docker build -t <image_name> .
 # docker run --rm <image_name>
