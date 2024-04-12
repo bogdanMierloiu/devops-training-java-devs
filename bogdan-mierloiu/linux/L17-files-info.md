@@ -1,0 +1,1 @@
+## `file` -> everything is a file in Linux
