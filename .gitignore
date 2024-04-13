@@ -1,9 +1,12 @@
 # Default ignored files
 /shelf/
 /.idea/workspace.xml
-# Default ignored directories
+
+
+# Default ignored directories for Java projects
 /.idea/
 bogdan-mierloiu/spring-container-1/target
 bogdan-mierloiu/spring-container-1/.mvn
 bogdan-mierloiu/spring-container-1/mvnw
 bogdan-mierloiu/spring-container-1/mvnw.cmd
+
