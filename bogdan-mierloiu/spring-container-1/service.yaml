@@ -1,3 +1,5 @@
+#service.yaml
+
 apiVersion: v1
 kind: Service
 metadata:
@@ -13,6 +15,6 @@ spec:
 
 
 
-
 # kubectl get services
 # minikube ip
+# kubectl port-forward service/first-service 8080:8080
