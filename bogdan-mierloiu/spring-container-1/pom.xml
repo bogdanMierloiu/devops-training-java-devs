@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>eu.accesa</groupId>
-	<artifactId>spring-container-1</artifactId>
+	<artifactId>spring-container</artifactId>
 	<version>0.0.1</version>
 	<name>spring-container</name>
 	<description>Spring-Container</description>

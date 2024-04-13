@@ -12,7 +12,7 @@
 <div class="custom-container">
     <div class="row">
         <div class="col-md-6 offset-md-3 text-center">
-            <h1>Welcome to Container 1</h1>
+            <h1 th:text="${'Hello from container ' + containerNumber}"></h1>
             <div class="custom-button-container">
                 <button class="btn btn-outline-success" onclick="redirectToContainer2()"> Go to Container 2</button>
             </div>

@@ -12,7 +12,7 @@ RUN addgroup --gid $GROUPID $GROUPNAME && \
 
 WORKDIR /home/$GROUPNAME
 
-ARG JAR_FILE=target/spring-container-1-0.0.1.jar
+ARG JAR_FILE=target/spring-container-0.0.1.jar
 COPY ${JAR_FILE} /home/$GROUPNAME/app-start.jar
 
 USER bogdan-dev
