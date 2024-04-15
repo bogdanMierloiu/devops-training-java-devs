@@ -1,0 +1,20 @@
+#service.yaml
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: web-client-service
+spec:
+  selector:
+    app: web-client
+  ports:
+    - protocol: TCP
+      port: 8080       # expose port from the service
+      targetPort: 8080 # the port where deployment is listening to
+  type: NodePort
+
+
+
+# kubectl get services
+# minikube ip
+# kubectl port-forward service/first-service 8081(expose port):8080(target port from the service)

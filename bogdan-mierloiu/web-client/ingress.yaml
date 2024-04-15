@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: first-ingress
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: "ingress-ip"
+spec:
+  rules:
+    - host: local-app.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: first-service
+                port:
+                  number: 8080

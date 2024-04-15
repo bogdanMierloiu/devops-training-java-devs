@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-client-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-client
+  template:
+    metadata:
+      labels:
+        app: web-client
+    spec:
+      containers:
+        - name: web-client
+          image: docker.io/library/web-client:latest
+          imagePullPolicy: Never  # Never pull the image from the registry
+          env:
+            - name: CONTAINER_NUMBER
+              value: "1"
+          ports:
+            - containerPort: 8080
+
+
+# kubectl rollout restart deployment web-client-deployment
+# docker context use default
+# minikube docker-env
+# & minikube -p minikube docker-env --shell powershell | Invoke-Expression - to use minikube's docker daemon
+# docker build -t spring-container .   -> build the image in miniube's docker daemon
+# kubectl run first-container-2 --image=docker.io/library/first-container:latest --image-pull-policy=Never --restart=Never --env="CONTAINER_NUMBER=2" --port=8080
+# kubectl delete pod <pod-name>
+
+# minikube start
+# minikube status
+# minikube config set vm-driver hyperv
+# minikube config set vm-driver docker
+# minikube config set vm-driver virtualbox
+# kubectl config use-context minikube
+# kubectl config current-context
+
+# & minikube docker-env | Invoke-Expression - to use minikube's docker daemon
+# & minikube docker-env -u | Invoke-Expression - to stop using minikube's docker daemon
+# minikube image load spring-container-1:latest
+# minikube start
+
+
+# minikube addons enable registry
+# minikube addons list
+# docker tag spring-container-1 localhost:57554/spring-container-1

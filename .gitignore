@@ -5,8 +5,13 @@
 
 # Default ignored directories for Java projects
 /.idea/
-bogdan-mierloiu/spring-container-1/target
-bogdan-mierloiu/spring-container-1/.mvn
-bogdan-mierloiu/spring-container-1/mvnw
-bogdan-mierloiu/spring-container-1/mvnw.cmd
+bogdan-mierloiu/api/target
+bogdan-mierloiu/api/.mvn
+bogdan-mierloiu/api/mvnw
+bogdan-mierloiu/api/mvnw.cmd
 
+
+bogdan-mierloiu/web-client/target
+bogdan-mierloiu/web-client/.mvn
+bogdan-mierloiu/web-client/mvnw
+bogdan-mierloiu/web-client/mvnw.cmd
