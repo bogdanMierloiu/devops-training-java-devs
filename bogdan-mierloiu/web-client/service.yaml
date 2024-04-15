@@ -11,7 +11,7 @@ spec:
     - protocol: TCP
       port: 8080       # expose port from the service
       targetPort: 8080 # the port where deployment is listening to
-  type: NodePort
+  type: ClusterIP
 
 
 

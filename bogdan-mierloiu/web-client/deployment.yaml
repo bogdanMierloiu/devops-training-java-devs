@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web-client
-          image: docker.io/library/web-client:latest
+          image: docker.io/library/web-client
           imagePullPolicy: Never  # Never pull the image from the registry
           env:
             - name: CONTAINER_NUMBER
