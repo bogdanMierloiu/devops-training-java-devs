@@ -11,7 +11,7 @@ spec:
     - protocol: TCP
       port: 8081       # expose port from the service
       targetPort: 8080 # the port where deployment is listening to
-  type: NodePort
+  type: ClusterIP
 
 
 # kubectl get services
